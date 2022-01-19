@@ -1,0 +1,11 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+#navbar {
+    margin: 15px auto 30px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}

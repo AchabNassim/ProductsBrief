@@ -1,0 +1,261 @@
+[
+  {
+  "id": 300,
+  "désignation": "KTM 390 Duke",
+  "prix": 59990,
+  "catégorie": "roadster",
+  "disponibilité":[
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "KTM",
+    "adress" : "57 Rue Ichbilia, Casablanca 21000"
+   }
+  },
+  {
+  "id": 300,
+  "désignation": "BMW G310R",
+  "prix": 69999,
+  "catégorie": "roadster",
+  "disponibilité": [
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "BMW",
+    "adress" : " bd Chefchaouni, z.i. Sidi Bernoussi, Grand Casablanca"
+   }
+  },
+  {
+  "id": 300,
+  "désignation": "KTM RC 390 ",
+  "prix": 65100,
+  "catégorie": "sport",
+  "disponibilité":[
+    "casablanca",
+    "tanger"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "KTM",
+    "adress" : "57 Rue Ichbilia, Casablanca 21000"
+   }
+  },
+  {
+  "id": 300,
+  "désignation": "yamaha mt03",
+  "prix": 56500,
+  "catégorie": "roadster",
+  "disponibilité": [
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  {
+  "id": 300,
+  "désignation": "Vespa 300 GTS",
+  "prix": 67500,
+  "catégorie": "Scooter",
+  "disponibilité": [
+    "casablanca",
+    "tanger"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "PIAGGIO",
+    "adress" : "Av. Moulay Ismail, Tanger 90060"
+   }
+  },
+  {
+  "id": 300,
+  "désignation": "Xmax 300",
+  "prix": 72100,
+  "catégorie": "Maxi-Scooter",
+  "disponibilité": [
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  {
+  "id": 600,
+  "désignation": "Yamaha R6",
+  "prix": 114000,
+  "catégorie": "Sport",
+  "disponibilité": [
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  {
+  "id": 600,
+  "désignation": "Kawasaki ZX-6R",
+  "prix": 95000,
+  "catégorie": "Sport",
+  "disponibilité": [
+    "casablanca",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "Kawasaki",
+    "adress" : "Bd Abdelhadi Boutaleb, Casablanca"
+   }
+  },
+  {
+  "id": 600,
+  "désignation": "Suzuki GSX-R600",
+  "prix": 92000,
+  "catégorie": "Sport",
+  "disponibilité": [
+    "casablanca",
+    "tanger"
+  ],
+  "fournisseur": 
+    {"raisonsocial" : "SUZUKI",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  {
+  "id": 600,
+  "désignation": "Honda CBR600RR ",
+  "prix": 89650,
+  "catégorie": "Sport",
+  "disponibilité":[
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "HONDA",
+    "adress" : "Adresse : Quartier Industriel, Lotissement Vita N°30"
+   }
+  },
+  {
+  "id": 600,
+  "désignation": "Bmw GS 650",
+  "prix": 11500,
+  "catégorie": "trail",
+  "disponibilité": [
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "BMW",
+    "adress" : " bd Chefchaouni, z.i. Sidi Bernoussi, Grand Casablanca"
+   }
+  },
+  { 
+  "id": 600,
+  "désignation": "T-max 560 dx",
+  "prix": 175000,
+  "catégorie": "Maxi-scooter",
+  "disponibilité": [
+    "casablanca",
+    "tanger"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  { 
+  "id": 600,
+  "désignation": "T-max 530 sx",
+  "prix": 144000,
+  "catégorie": "Maxi-scooter",
+  "disponibilité": [
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  },
+  { 
+    "id": "700",
+    "désignation": "yamaha ténéré 700",
+    "prix": 115000,
+    "catégorie": "ADV",
+    "disponibilité": [
+      "casablanca",
+      "rabat",
+      "tanger"
+     ],
+    "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+     "adress" : "Av. Sanhaja, Tanger 90060"
+    }
+  },
+  { 
+  "id": 1000,
+  "désignation": "Yamaha R1",
+  "prix": 220000,
+  "catégorie": "Sport",
+  "disponibilité": [
+    "casablanca",
+    "tanger",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "YAMAHA",
+    "adress" : "Av. Sanhaja, Tanger 90060"
+   }
+  } ,
+  { 
+  "id": 1000,
+  "désignation": "bmw 1000rr",
+  "prix": 190000,
+  "catégorie": "Sport",
+  "disponibilité":[
+    "casablanca",
+    "tanger"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "BMW",
+    "adress" : "bd Chefchaouni, z.i. Sidi Bernoussi, Grand Casablanca"
+   }
+  },
+  { 
+  "id": 1000,
+  "désignation": "Ducati Panigale V4S",
+  "prix": 240000,
+  "catégorie": "Sport",
+  "disponibilité":[
+    "tanger"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "Ducati",
+    "adress" : "Bd Abdelhadi Boutaleb, Casablanca"
+   }
+  },
+  { 
+  "id": "the best bike ever",
+  "désignation": "bmw 1250GS",
+  "prix": 285000,
+  "catégorie": "Trail",
+  "disponibilité": [
+    "casablanca",
+    "rabat"
+   ],
+  "fournisseur": 
+    {"raisonsocial" : "BMW",
+    "adress" : "bd Chefchaouni, z.i. Sidi Bernoussi, Grand Casablanca"
+   }
+  }  
+]
+
