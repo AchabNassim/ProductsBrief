@@ -34,11 +34,34 @@ function fillTable(dt){
     document.querySelector('tbody').innerHTML += info
 }
 search.addEventListener('keyup', filterTasks)
-function filterTasks(){
-  var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-}
+//search.addEventListener('keyup', filterr)
+// function filterTasks(){
+//   var value = $(this).val().toLowerCase();
+//     $("#myTable tr").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//     });
+// }
+function filterr(e){
+  // récupérer la valeur à rechercher
+  let text = e.target.value.toLowerCase();
+  // récupérer toutes les lignes de la table HTML
+  //let rows = $("#myTable tr");
+  let rows = $("#myTable").find("tr");
 
-// document.querySelector(#up).addEventListener('click',)
+  rows.each(function(){
+    var currentRow = $(this);
+    var cells = currentRow.find("td");
+    var testExistenceInRow = false;
+    cells.each(function(){
+      var cellValue = $(this).text();
+      if(cellValue.toLowerCase().indexOf(text) > -1){
+        testExistenceInRow = true;
+        return;
+      }
+    })
+    if(!testExistenceInRow){
+      currentRow.hide();
+    }
+  });
+
+}
