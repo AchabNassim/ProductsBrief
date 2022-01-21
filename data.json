@@ -1,6 +1,6 @@
 [
   {
-  "id": 300,
+  "id": 390,
   "désignation": "KTM 390 Duke",
   "prix": 59990,
   "catégorie": "roadster",
@@ -15,7 +15,7 @@
    }
   },
   {
-  "id": 300,
+  "id": 310,
   "désignation": "BMW G310R",
   "prix": 69999,
   "catégorie": "roadster",
@@ -30,7 +30,7 @@
    }
   },
   {
-  "id": 300,
+  "id": 390,
   "désignation": "KTM RC 390 ",
   "prix": 65100,
   "catégorie": "sport",
@@ -44,7 +44,7 @@
    }
   },
   {
-  "id": 300,
+  "id": 370,
   "désignation": "yamaha mt03",
   "prix": 56500,
   "catégorie": "roadster",
@@ -59,7 +59,7 @@
    }
   },
   {
-  "id": 300,
+  "id": 315,
   "désignation": "Vespa 300 GTS",
   "prix": 67500,
   "catégorie": "Scooter",
@@ -101,7 +101,7 @@
    }
   },
   {
-  "id": 600,
+  "id": 670,
   "désignation": "Kawasaki ZX-6R",
   "prix": 95000,
   "catégorie": "Sport",
@@ -115,7 +115,7 @@
    }
   },
   {
-  "id": 600,
+  "id": 650,
   "désignation": "Suzuki GSX-R600",
   "prix": 92000,
   "catégorie": "Sport",
@@ -129,7 +129,7 @@
    }
   },
   {
-  "id": 600,
+  "id": 640,
   "désignation": "Honda CBR600RR ",
   "prix": 89650,
   "catégorie": "Sport",
@@ -144,7 +144,7 @@
    }
   },
   {
-  "id": 600,
+  "id": 650,
   "désignation": "Bmw GS 650",
   "prix": 11500,
   "catégorie": "trail",
@@ -159,7 +159,7 @@
    }
   },
   { 
-  "id": 600,
+  "id": 560,
   "désignation": "T-max 560 dx",
   "prix": 175000,
   "catégorie": "Maxi-scooter",
@@ -173,7 +173,7 @@
    }
   },
   { 
-  "id": 600,
+  "id": 530,
   "désignation": "T-max 530 sx",
   "prix": 144000,
   "catégorie": "Maxi-scooter",
@@ -217,7 +217,7 @@
    }
   } ,
   { 
-  "id": 1000,
+  "id": 1099,
   "désignation": "bmw 1000rr",
   "prix": 190000,
   "catégorie": "Sport",
