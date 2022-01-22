@@ -33,7 +33,7 @@ function fillTable(dt){
     })  
     document.querySelector('tbody').innerHTML += info
 }
-search.addEventListener('keyup', filterTasks)
+search.addEventListener('keyup', filterr)
 //search.addEventListener('keyup', filterr)
 // function filterTasks(){
 //   var value = $(this).val().toLowerCase();
