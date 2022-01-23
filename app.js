@@ -1,7 +1,7 @@
 let search = document.querySelector('#inputS')
 var dt;
 function getJSON(){
-$.getJSON('data.json', function(data){
+      $.getJSON('data.json', function(data){
         dt = data;
         fillTable(data);
       })
@@ -63,5 +63,24 @@ function filterr(e){
       currentRow.hide();
     }
   });
-
 }
+
+function tri (genre,ordre){
+  if (ordre == "asc"){
+    dt.sort(function(a,b){
+      if(a[genre] > b[genre]){
+      return -1
+      }
+    })  
+  }
+  else if (ordre == "desc"){
+    dt.sort(function(a,b){
+      if (a[genre] < b[genre]){
+        return -1
+      }
+    })
+  }
+  document.querySelector("tbody").innerHTML = "";
+  fillTable(dt)
+}
+

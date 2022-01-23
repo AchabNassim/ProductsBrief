@@ -32,11 +32,11 @@
 	  <table class="table table-bordered table-responsive ">
 		<thead>
 			<th scope="col">
-				<i class="fas fa-arrow-up" id="up" onclick=""></i>
-				<i class="fas fa-arrow-down" id="down"></i>
+				<i class="fas fa-arrow-up" id="up" onclick="tri('id','asc')"></i>
+				<i class="fas fa-arrow-down" id="down" onclick="tri('id','desc')"></i>
 				<span>ID</span>
 			</th>
-			<th scope="col"><i class="fas fa-arrow-up" id="upp"></i><i class="fas fa-arrow-down" id="downn"></i><span>Désignation</span></th>
+			<th scope="col"><i class="fas fa-arrow-up" onclick="tri('désignation','asc')"></i><i class="fas fa-arrow-down" onclick="tri('désignation','desc')"></i><span>Désignation</span></th>
 			<th scope="col"><span>Prix</span></th>
 			<th scope="col"><span>Catégorie</span></th>
 			<th scope="col">Disponibilité</th>
