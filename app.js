@@ -42,11 +42,16 @@ search.addEventListener('keyup', filterr)
 //     });
 // }
 function filterr(e){
+  var rows = $("#myTable").find("tr");
+  rows.each(function(){
+    var currentRow = $(this);
+    currentRow.show()
+  })
   // récupérer la valeur à rechercher
   let text = e.target.value.toLowerCase();
   // récupérer toutes les lignes de la table HTML
   //let rows = $("#myTable tr");
-  let rows = $("#myTable").find("tr");
+  var rows = $("#myTable").find("tr");
 
   rows.each(function(){
     var currentRow = $(this);
@@ -68,7 +73,7 @@ function filterr(e){
 function tri (genre,ordre){
   if (ordre == "asc"){
     dt.sort(function(a,b){
-      if(a[genre] > b[genre]){
+      if(a[genre].toLowerCase() > b[genre].toLowerCase()){
       return -1
       }
     })  
