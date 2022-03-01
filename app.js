@@ -73,7 +73,7 @@ function filterr(e){
 function tri (genre,ordre){
   if (ordre == "asc"){
     dt.sort(function(a,b){
-      if(a[genre].toLowerCase() > b[genre].toLowerCase()){
+      if(a[genre] > b[genre]){
       return -1
       }
     })  
