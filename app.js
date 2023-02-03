@@ -33,9 +33,9 @@ function fillTable(dt){
     })  
     document.querySelector('tbody').innerHTML += info
 }
-search.addEventListener('keyup', filterr)
+search.addEventListener('keyup', filter)
 
-function filterr(e){
+function filter(e){
   let rows = $("#myTable").find("tr");
   rows.each(function(){
     var currentRow = $(this);
