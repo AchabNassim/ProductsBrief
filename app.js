@@ -34,23 +34,15 @@ function fillTable(dt){
     document.querySelector('tbody').innerHTML += info
 }
 search.addEventListener('keyup', filterr)
-//search.addEventListener('keyup', filterr)
-// function filterTasks(){
-//   var value = $(this).val().toLowerCase();
-//     $("#myTable tr").filter(function() {
-//       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-//     });
-// }
+
 function filterr(e){
   let rows = $("#myTable").find("tr");
   rows.each(function(){
     var currentRow = $(this);
     currentRow.show()
   })
-  // récupérer la valeur à rechercher
   let text = e.target.value.toLowerCase();
   // récupérer toutes les lignes de la table HTML
-  //let rows = $("#myTable tr");
   rows.each(function(){
     let currentRow = $(this);
     let cells = currentRow.find("td");
