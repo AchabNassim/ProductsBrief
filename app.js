@@ -42,7 +42,7 @@ search.addEventListener('keyup', filterr)
 //     });
 // }
 function filterr(e){
-  var rows = $("#myTable").find("tr");
+  let rows = $("#myTable").find("tr");
   rows.each(function(){
     var currentRow = $(this);
     currentRow.show()
@@ -51,14 +51,12 @@ function filterr(e){
   let text = e.target.value.toLowerCase();
   // récupérer toutes les lignes de la table HTML
   //let rows = $("#myTable tr");
-  var rows = $("#myTable").find("tr");
-
   rows.each(function(){
-    var currentRow = $(this);
-    var cells = currentRow.find("td");
-    var testExistenceInRow = false;
+    let currentRow = $(this);
+    let cells = currentRow.find("td");
+    let testExistenceInRow = false;
     cells.each(function(){
-      var cellValue = $(this).text();
+      let cellValue = $(this).text();
       if(cellValue.toLowerCase().indexOf(text) > -1){
         testExistenceInRow = true;
         return;
